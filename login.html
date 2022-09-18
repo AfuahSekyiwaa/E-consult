@@ -1,0 +1,31 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/IndexStyle.css" />
+    <script src="./assets/js/User.js"></script> 
+    <title>Login</title>
+</head>
+<body>
+    
+    <section class="form">
+        <form action="#" class="form-input" id="form">
+          <div class="form-group">
+            <input type="email" name="email" id="email" placeholder="Email" onblur="validateUser()"/>
+          </div>
+          <div class="form-group">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="password"
+              onblur="validateUser()"
+            />
+          </div>
+          <button type="submit" class="submit-form">Login</button>
+        </form>
+      </section>
+</body>
+</html> 
